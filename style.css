@@ -31,7 +31,7 @@
   --accent-subtle-border: rgba(74, 222, 128, 0.18);
   --muted: #aaaaaa;
   --text: #e8e8e8;
-  --font: 'JetBrains Mono', 'Courier New', monospace;
+  --font: 'JetBrains Mono', monospace;
 }
 
 *,
