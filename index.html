@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Swanand Mathekar — Senior Software Engineer building for the web." />
+  <title>Swanand Mathekar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="nav">
+    <span class="nav__name">Swanand Mathekar</span>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="main">
+
+    <section class="hero" id="hero">
+      <div class="hero__header">
+        <div class="hero__identity">
+          <h1 class="hero__name">Swanand Mathekar</h1>
+          <p class="hero__tagline">Senior Software Engineer · rtCamp</p>
+        </div>
+        <a class="hero__resume" href="https://flowcv.com/resume/5444csumse" target="_blank"
+          rel="noopener noreferrer">resume ↗</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section__label">About</p>
+      <p class="about__bio">
+        Senior software engineer at rtCamp. I build for the web: from headless WordPress and
+        browser extensions to AI-powered tooling. All my side projects are open source.
+      </p>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="section__label">Projects</p>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <h2 class="project-card__name">CollabCode</h2>
+          <p class="project-card__desc">Real-time collaborative code editor for interviews, troubleshooting, and
+            teaching.</p>
+          <ul class="project-card__tags">
+            <li class="project-card__tag">Node.js</li>
+            <li class="project-card__tag">SocketIO</li>
+            <li class="project-card__tag">Firebase</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/Swanand01/CollabCode" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h2 class="project-card__name">Pulse</h2>
+          <p class="project-card__desc">Fast peer-to-peer file transfers in the browser using WebTorrent.</p>
+          <ul class="project-card__tags">
+            <li class="project-card__tag">TypeScript</li>
+            <li class="project-card__tag">Node.js</li>
+            <li class="project-card__tag">WebTorrent</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/Swanand01/Pulse" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h2 class="project-card__name">Feedboard</h2>
+          <p class="project-card__desc">Self-hosted customer feedback and roadmap tool. Create boards, track statuses,
+            build roadmaps.</p>
+          <ul class="project-card__tags">
+            <li class="project-card__tag">TypeScript</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/Swanand01/feedboard" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h2 class="project-card__name">Anton LAN Storage</h2>
+          <p class="project-card__desc">Minimal self-hosted file manager for your local network. Upload, download, and
+            organize from any device on the same LAN.</p>
+          <ul class="project-card__tags">
+            <li class="project-card__tag">Python</li>
+            <li class="project-card__tag">Flask</li>
+            <li class="project-card__tag">Docker</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/Swanand01/anton-LAN-storage" target="_blank"
+              rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h2 class="project-card__name">streaminal-tv</h2>
+          <p class="project-card__desc">Watch movies and TV shows for free, in the browser.</p>
+          <ul class="project-card__tags">
+            <li class="project-card__tag">TypeScript</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/Swanand01/streaminal-tv" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.streaminal.cc" target="_blank" rel="noopener noreferrer">Live</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h2 class="project-card__name">pynix.sh</h2>
+          <p class="project-card__desc">Python-powered cross-platform shell with seamless integration between Python and
+            shell scripting.</p>
+          <ul class="project-card__tags">
+            <li class="project-card__tag">Python</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/Swanand01/pynix.sh" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <p class="section__label">Experience</p>
+      <ul class="experience-list">
+
+        <li class="experience-item">
+          <div class="experience-item__header">
+            <span class="experience-item__title">
+              Senior Software Engineer · <a class="experience-item__company" href="https://rtcamp.com" target="_blank"
+                rel="noopener noreferrer">rtCamp</a>
+            </span>
+            <span class="experience-item__dates">Jan 2026 – present</span>
+          </div>
+          <p class="experience-item__desc">
+            Built WordPress themes and plugins for client sites: LLM-powered search, Gutenberg block patterns, and an
+            internal PHP component documentation viewer.
+          </p>
+        </li>
+
+        <li class="experience-item">
+          <div class="experience-item__header">
+            <span class="experience-item__title">
+              Software Engineer · <a class="experience-item__company" href="https://rtcamp.com" target="_blank"
+                rel="noopener noreferrer">rtCamp</a>
+            </span>
+            <span class="experience-item__dates">Jan 2024 – Jan 2026</span>
+          </div>
+          <p class="experience-item__desc">
+            Worked on Google WebStories, Chrome PSAT, and SnapWP headless — at the intersection of WordPress, browser
+            tooling, and AI.
+          </p>
+        </li>
+
+
+        <li class="experience-item">
+          <div class="experience-item__header">
+            <span class="experience-item__title">
+              SDE Intern · <a class="experience-item__company" href="https://www.lana.health" target="_blank"
+                rel="noopener noreferrer">Lana Health</a>
+            </span>
+            <span class="experience-item__dates">Jul 2022 – Jun 2023</span>
+          </div>
+          <p class="experience-item__desc">
+            Built FHIR interface apps and a patient dashboard covering admission, treatment, discharge, and video
+            tracking in Java and React.
+          </p>
+        </li>
+
+        <li class="experience-item">
+          <div class="experience-item__header">
+            <span class="experience-item__title">
+              SDE Intern · <a class="experience-item__company" href="https://enalo.in" target="_blank"
+                rel="noopener noreferrer">Enalo</a>
+            </span>
+            <span class="experience-item__dates">Feb 2022 – Apr 2022</span>
+          </div>
+          <p class="experience-item__desc">
+            Optimized transaction APIs by 30% and improved PostgreSQL query performance.
+          </p>
+        </li>
+
+        <li class="experience-item">
+          <div class="experience-item__header">
+            <span class="experience-item__title">
+              Full Stack Intern · <a class="experience-item__company" href="https://in.linkedin.com/company/almanack"
+                target="_blank" rel="noopener noreferrer">almanack.io</a>
+            </span>
+            <span class="experience-item__dates">Sep 2021 – Feb 2022</span>
+          </div>
+          <p class="experience-item__desc">
+            Built high-performance Django backends, managed PostgreSQL, deployed on AWS EC2.
+          </p>
+        </li>
+
+      </ul>
+    </section>
+
+    <section class="section" id="contact">
+      <p class="section__label">Contact</p>
+      <nav class="contact__links" aria-label="Contact links">
+        <a href="mailto:swanandmathekar@gmail.com">email</a>
+        <a href="https://github.com/Swanand01" target="_blank" rel="noopener noreferrer">github</a>
+        <a href="https://www.linkedin.com/in/swanand-mathekar/" target="_blank" rel="noopener noreferrer">linkedin</a>
+      </nav>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Swanand Mathekar · 2026</p>
+  </footer>
+
+  <script src="index.js" defer></script>
+</body>
+
+</html>
