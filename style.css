@@ -1,22 +1,22 @@
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-family: "JetBrains Mono";
+  src: url("fonts/JetBrainsMono-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('fonts/JetBrainsMono-Medium.woff2') format('woff2');
+  font-family: "JetBrains Mono";
+  src: url("fonts/JetBrainsMono-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('fonts/JetBrainsMono-SemiBold.woff2') format('woff2');
+  font-family: "JetBrains Mono";
+  src: url("fonts/JetBrainsMono-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -31,7 +31,7 @@
   --accent-subtle-border: rgba(74, 222, 128, 0.18);
   --muted: #aaaaaa;
   --text: #e8e8e8;
-  --font: 'JetBrains Mono', monospace;
+  --font: "JetBrains Mono", monospace;
 }
 
 *,
@@ -191,7 +191,9 @@ a:hover {
   color: var(--muted);
   border: 1px solid var(--border);
   padding: 0.35rem 0.85rem;
-  transition: color 0.15s, border-color 0.15s;
+  transition:
+    color 0.15s,
+    border-color 0.15s;
 }
 
 .hero__resume:hover {
@@ -273,7 +275,7 @@ a:hover {
 }
 
 .project-card__links a::after {
-  content: ' ↗';
+  content: " ↗";
 }
 
 /* ── Experience ── */
